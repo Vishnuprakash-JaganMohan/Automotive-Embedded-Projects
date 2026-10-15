@@ -1,328 +1,234 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=230&color=0:050816,25:151538,60:003B49,100:00FFD1&text=ALIEN%20AUTOMOTIVE%20LAB&fontSize=38&fontColor=FFFFFF&animation=twinkling&fontAlignY=38&desc=BEYOND%20EARTH.%20BEYOND%20LIMITS.&descAlignY=60&descSize=17" width="100%"/>
+# 🚗 Automotive Embedded Projects
 
-<br/>
+**Simulation-based projects in ECU control, vehicle communication, diagnostics and fault handling**
 
-<img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=18&duration=2500&pause=700&color=00FFD1&center=true&vCenter=true&width=750&lines=ALIEN+ENGINEER+%7C+AUTOMOTIVE+TECH;INITIALIZING+VEHICLE+CONTROL+SYSTEMS...;EMBEDDED+C+%7C+ECU+%7C+AUTOMOTIVE+SOFTWARE;THE+FUTURE+IS+UNDER+DEVELOPMENT..." alt="Animated futuristic text"/>
+![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
+![C++](https://img.shields.io/badge/C++-00427E?style=for-the-badge&logo=cplusplus&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![CMake](https://img.shields.io/badge/CMake-064F8C?style=for-the-badge&logo=cmake&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 
-<br/><br/>
+![Status](https://img.shields.io/badge/status-in%20planning-F5A623?style=flat-square)
+![Domain](https://img.shields.io/badge/domain-automotive%20embedded-0A9396?style=flat-square)
+![Focus](https://img.shields.io/badge/focus-CAN%20%7C%20ECU%20%7C%20diagnostics-005F73?style=flat-square)
+![License](https://img.shields.io/badge/license-MIT-2D9C5A?style=flat-square)
 
-<img src="https://img.shields.io/badge/👽_ALIEN_MODE-ACTIVATED-00FFD1?style=for-the-badge&labelColor=080B18"/>
-<img src="https://img.shields.io/badge/🚘_AUTOMOTIVE-ENGINEERING-7B2CFF?style=for-the-badge&labelColor=080B18"/>
-<img src="https://img.shields.io/badge/⚡_EMBEDDED-SYSTEMS-00FFD1?style=for-the-badge&labelColor=080B18"/>
-
-<br/><br/>
-
-# 👽 WELCOME TO MY UNIVERSE
-
-### 🚘 Where Alien Intelligence Meets Automotive Technology
-
-*Exploring the machines of Earth. Engineering the vehicles of tomorrow.*
-
-<br/>
-
-**ENGINEER:** Vishnuprakash Jagan Mohan  
-**HOME PLANET:** Earth 🌍  
-**ENGINEERING BASE:** TU Chemnitz, Germany 🇩🇪  
-**MISSION:** Automotive Embedded Software  
-**STATUS:** `LEARN • BUILD • EXPERIMENT • EVOLVE`
-
-<br/>
+[Overview](#-overview) · [Projects](#-projects) · [Architecture](#-planned-architecture) · [Roadmap](#-roadmap) · [Getting Started](#-getting-started) · [Contact](#-contact)
 
 </div>
 
 ---
 
-<div align="center">
+## 🎯 Overview
 
-## 🌌 THE GARAGE IS OPEN. THE MISSION HAS BEGUN.
+Modern vehicles are networks of electronic control units (ECUs) exchanging signals over in-vehicle buses. This repository explores the software side of that world through simulation projects that run on a development machine, with the aim of porting selected parts to microcontroller targets later.
 
-</div>
-
-Welcome to my **Alien Automotive Lab** — a futuristic corner of GitHub where embedded systems, automotive technology, and extraterrestrial imagination come together.
-
-I'm an M.Sc. Embedded Systems student at **TU Chemnitz, Germany**, with over four years of industrial R&D experience in embedded hardware, firmware development, PCB design, and microcontroller-based control systems.
-
-Now, I'm expanding my engineering skills into automotive embedded software by independently developing projects, experimenting with code, and exploring the technology behind intelligent vehicles.
-
-From electronic control units to automotive communication, every experiment is another step toward understanding how modern vehicles work.
-
-👽 My imagination comes from science fiction.  
-⚡ My skills come from engineering.  
-🚘 My mission is to bring them together.
+| | |
+|---|---|
+| 🎓 **Goal** | Build practical skills in ECU logic, CAN communication, diagnostics and fault handling |
+| 🧪 **Method** | Requirements, design, implementation and automated tests for every project |
+| 📦 **Format** | Self-contained projects, each with its own README, build steps and test results |
+| ⚠️ **Scope** | Learning simulations. Not production software and not safety-certified |
 
 ---
 
-<div align="center">
+## 👤 Author
 
-# 🚀 THE ALIEN GARAGE
+**Vishnuprakash Jagan Mohan** · M.Sc. Embedded Systems, TU Chemnitz, Germany
 
-### `FUTURE VEHICLES. INTELLIGENT SYSTEMS. UNLIMITED CURIOSITY.`
-
-<img src="https://img.shields.io/badge/SECTOR-001-00FFD1?style=flat-square"/>
-<img src="https://img.shields.io/badge/PLANET-EARTH-7B2CFF?style=flat-square"/>
-<img src="https://img.shields.io/badge/ENERGY-EMBEDDED_CODE-00FFD1?style=flat-square"/>
-
-</div>
+Over four years of industrial R&D experience in embedded hardware, firmware and microcontroller-based control systems, including PCB design, Embedded C, CAN / RS485 / Modbus RTU communication and hardware-software integration. This repository extends that background into automotive embedded software.
 
 ---
 
-## 🚘 01 // AUTOMOTIVE UNIVERSE
+## 🛠️ Projects
 
-My engineering interests revolve around the technologies that make modern vehicles intelligent.
+| # | Project | Focus | Topics | Status |
+|:-:|---------|-------|--------|:------:|
+| 1 | 🔵 [ECU Simulator](#-1-automotive-ecu-simulator) | Control logic | Sensor inputs, state machines, actuator outputs | ![Planned](https://img.shields.io/badge/-Planned-F5A623?style=flat-square) |
+| 2 | 🟢 [Communication Simulator](#-2-automotive-communication-simulator) | Networking | CAN frames, message handling between virtual ECUs | ![Planned](https://img.shields.io/badge/-Planned-F5A623?style=flat-square) |
+| 3 | 🟣 [Diagnostic Engine](#-3-ecu-diagnostic-engine) | Diagnostics | Fault identification, trouble codes, event logging | ![Planned](https://img.shields.io/badge/-Planned-F5A623?style=flat-square) |
+| 4 | 🟠 [Sensor Monitor](#-4-vehicle-sensor-monitor) | Signal handling | Thresholds, plausibility checks, visualization | ![Planned](https://img.shields.io/badge/-Planned-F5A623?style=flat-square) |
+| 5 | 🔴 [Fault Detection System](#-5-ecu-fault-detection-system) | Robustness | Fault injection, timeouts, safe states | ![Planned](https://img.shields.io/badge/-Planned-F5A623?style=flat-square) |
 
-| 🚀 Technology | 👽 Mission |
-|:---|:---|
-| 🚘 Automotive ECUs | Explore electronic control systems |
-| ⚡ Embedded C / C++ | Develop embedded software |
-| 📡 CAN Communication | Understand communication between vehicle controllers |
-| 🧠 Control Logic | Implement state machines and control algorithms |
-| 🌡️ Sensor Systems | Process simulated and real sensor inputs |
-| 🛡️ Fault Detection | Investigate abnormal operating conditions |
-| 🔬 Software Testing | Verify functionality and investigate failures |
-| 🛰️ Real-Time Systems | Explore timing, interrupts, and predictable execution |
+> Status values: **Planned**, **In Progress**, **Complete**. The table is updated as work is committed.
 
-<br/>
+### 🔵 1. Automotive ECU Simulator
+A software ECU model that reads simulated sensor inputs, tracks operating states and drives simulated actuator outputs.
+- **Objectives:** explicit state machine for operating modes; separate input, logic and output modules; deterministic, testable behavior
+- **Deliverables:** source code, state diagram, requirements list, unit tests, usage docs
+- **Tech:** `Embedded-style C` `State machines` `Automated tests`
 
-<div align="center">
+### 🟢 2. Automotive Communication Simulator
+A simulation of message exchange between virtual ECUs using CAN concepts.
+- **Objectives:** message and signal definitions; frame packing and unpacking; handling of malformed or missing messages
+- **Deliverables:** message definition file, communication module, test cases, example bus-traffic logs
+- **Tech:** `C / C++` `CAN concepts` `Message processing`
 
-### THE FUTURE ISN'T JUST DRIVEN. IT'S ENGINEERED.
+### 🟣 3. ECU Diagnostic Engine
+A diagnostic simulation covering how an ECU detects, records and reports abnormal conditions.
+- **Objectives:** defined fault conditions; diagnostic trouble codes with status; inspectable event log
+- **Deliverables:** fault catalog, diagnostic module, test scenarios, example logs
+- **Tech:** `C` `Diagnostics` `Fault handling`
 
-</div>
+### 🟠 4. Vehicle Sensor Monitor
+A monitor for virtual vehicle signals with validation and visualization.
+- **Objectives:** threshold detection; range and plausibility checks; signal plots over time
+- **Deliverables:** monitoring module, validation rules, plotting scripts, sample datasets
+- **Tech:** `C / C++` `Python` `Signal processing basics`
 
----
-
-## 👽 02 // TECHNOLOGY DNA
-
-<div align="center">
-
-### MY ENGINEERING ARSENAL
-
-<img src="https://skillicons.dev/icons?i=c,cpp,python,git,github,linux,vscode,cmake&theme=dark" alt="Programming and development technologies"/>
-
-<br/><br/>
-
-<img src="https://img.shields.io/badge/EMBEDDED_C-00FFD1?style=for-the-badge&logo=c&logoColor=00FFD1&labelColor=080B18"/>
-<img src="https://img.shields.io/badge/C%2B%2B-7B2CFF?style=for-the-badge&logo=cplusplus&logoColor=FFFFFF&labelColor=080B18"/>
-<img src="https://img.shields.io/badge/MICROCONTROLLERS-00FFD1?style=for-the-badge&labelColor=080B18"/>
-<img src="https://img.shields.io/badge/CAN_BUS-7B2CFF?style=for-the-badge&labelColor=080B18"/>
-
-</div>
-
-### 🧠 Embedded Engineering
-
-- Embedded C and C++ programming
-- Microcontroller-based systems
-- Firmware development
-- Hardware-software integration
-- Peripheral interfacing
-- State machines and control logic
-- Real-time system fundamentals
-- Software testing and debugging
-
-### 🚗 Automotive Software
-
-- Electronic Control Unit concepts
-- CAN communication
-- Sensor and actuator simulation
-- Diagnostic software concepts
-- Fault handling and recovery
-- Automotive software architecture
-- Software-in-the-loop concepts
-- Automotive software verification
-
-### 🔧 Engineering Tools
-
-- Altium Designer
-- STM32 development tools
-- B&R Automation Studio
-- MATLAB
-- LabVIEW
-- Git and GitHub
-- GCC and CMake
-- Python
-
-*The technologies used in each project will be documented individually.*
+### 🔴 5. ECU Fault Detection System
+A fault-handling study built around fault injection and defined safe behavior.
+- **Objectives:** inject signal loss and communication timeouts; measure detection time and reaction; define and test a safe state
+- **Deliverables:** fault injection harness, fault-reaction logic, test report
+- **Tech:** `Embedded-style C` `Fault detection` `Structured testing`
 
 ---
 
-## 🛸 03 // EXPERIMENTAL PROJECTS
+## 🧭 Planned Architecture
 
-<div align="center">
+How the projects are intended to fit together (planned design, not yet implemented):
 
-### TRANSMISSION FROM THE DEVELOPMENT GARAGE
+```mermaid
+flowchart LR
+    S[Sensor Inputs<br/>simulated] --> E1[ECU Simulator<br/>state machine]
+    E1 -->|CAN frames| B((Virtual CAN Bus))
+    B --> E2[Peer ECU<br/>virtual]
+    E1 --> A[Actuator Outputs<br/>simulated]
+    E1 --> D[Diagnostic Engine<br/>DTCs + event log]
+    F[Fault Injection<br/>timeouts, signal loss] -.-> S
+    F -.-> B
+    D --> M[Sensor Monitor<br/>plots + validation]
 
-*Every project begins as an idea. Every experiment brings a new discovery.*
+    style S fill:#E0F2F1,stroke:#0A9396,color:#003B3B
+    style E1 fill:#DCEBFA,stroke:#005F73,color:#0B2F4A
+    style B fill:#FFF3D6,stroke:#F5A623,color:#5A3A00
+    style E2 fill:#DCEBFA,stroke:#005F73,color:#0B2F4A
+    style A fill:#E0F2F1,stroke:#0A9396,color:#003B3B
+    style D fill:#EADCF8,stroke:#7B2CBF,color:#2E1252
+    style F fill:#FBE0E0,stroke:#C0392B,color:#5A1010
+    style M fill:#FFE8D6,stroke:#E67E22,color:#5A2A00
+```
 
-</div>
+### Development workflow
 
-### 👽 PROJECT NEBULA
-**Automotive ECU Simulator**
+```mermaid
+flowchart LR
+    R[Requirements] --> D[Design] --> I[Implementation] --> T[Testing] --> G[Debugging] --> V[Review]
+    V -.->|iterate| R
 
-A software-based ECU simulation exploring sensor inputs, vehicle operating states, control logic, and simulated actuator responses.
+    style R fill:#DCEBFA,stroke:#005F73,color:#0B2F4A
+    style D fill:#E0F2F1,stroke:#0A9396,color:#003B3B
+    style I fill:#EADCF8,stroke:#7B2CBF,color:#2E1252
+    style T fill:#FFF3D6,stroke:#F5A623,color:#5A3A00
+    style G fill:#FBE0E0,stroke:#C0392B,color:#5A1010
+    style V fill:#E3F4E8,stroke:#2D9C5A,color:#0F3B22
+```
 
-`EMBEDDED C` `STATE MACHINES` `TESTING`
+**Working principles**
 
-Status: `PLANNED`
-
----
-
-### 🚘 PROJECT WORMHOLE
-**Automotive Communication Simulator**
-
-An exploration of communication between virtual electronic control units using automotive communication concepts.
-
-`C / C++` `CAN` `MESSAGE PROCESSING`
-
-Status: `PLANNED`
-
----
-
-### 🛡️ PROJECT SENTINEL
-**ECU Diagnostic Engine**
-
-A diagnostic simulation focused on abnormal operating conditions, fault identification, diagnostic trouble codes, and event logging.
-
-`C` `DIAGNOSTICS` `FAULT HANDLING`
-
-Status: `PLANNED`
-
----
-
-### 🌌 PROJECT ORACLE
-**Intelligent Vehicle Sensor Monitor**
-
-A sensor-monitoring experiment involving virtual vehicle signals, threshold detection, data validation, and signal visualization.
-
-`C / C++` `PYTHON` `SIGNAL PROCESSING`
-
-Status: `PLANNED`
+- ✅ **Requirements first:** every project starts with a short list of testable requirements
+- 🧩 **Separation of concerns:** input handling, logic and output handling live in separate modules
+- 🧪 **Test as you build:** normal behavior and edge cases (invalid inputs, timeouts, boundaries) are automated
+- 🔗 **Traceability:** tests reference the requirements they verify
+- 📏 **Coding standards:** MISRA C is the reference target where practical; compliance is not claimed unless checked with tooling and documented
+- 📝 **Documentation:** assumptions, limitations and results are recorded per project
 
 ---
 
-### ⚡ PROJECT GUARDIAN
-**ECU Fault Detection System**
+## 🧰 Technology Stack
 
-An exploration of fault injection, communication timeouts, error handling, and predefined safe operating states in simulated embedded systems.
+| Area | Tools and Concepts |
+|------|--------------------|
+| 💻 Languages | C, C++, Python |
+| 🔨 Build | GCC, CMake |
+| 🌿 Version control | Git, GitHub |
+| 🚘 Domain concepts | ECU architecture, CAN, state machines, diagnostics, fault handling, real-time fundamentals |
+| 🔧 Background tools | Altium Designer, STM32 tooling, B&R Automation Studio, MATLAB, LabVIEW |
 
-`EMBEDDED C` `FAULT DETECTION` `TESTING`
-
-Status: `PLANNED`
-
----
-
-<div align="center">
-
-*More experiments will be added as development progresses.*
-
-</div>
+Each project lists its exact tools and versions in its own README.
 
 ---
 
-## 🌠 04 // MY ENGINEERING MISSION
+## 📁 Repository Structure
 
-<div align="center">
+Target layout once projects are added:
 
-| MISSION PHASE | OBJECTIVE |
-|:---|:---|
-| 🌱 Phase 01 | Strengthen Embedded C and C++ |
-| 🚘 Phase 02 | Develop an automotive ECU simulator |
-| 📡 Phase 03 | Explore CAN communication |
-| 🛡️ Phase 04 | Implement diagnostic and fault-handling concepts |
-| 🔬 Phase 05 | Build automated testing workflows |
-| 🛰️ Phase 06 | Explore AUTOSAR and automotive software architecture |
-| 🚀 Phase 07 | Develop increasingly advanced automotive projects |
-
-</div>
-
-**My development philosophy:**
-
-`UNDERSTAND → DESIGN → CODE → TEST → DEBUG → IMPROVE`
-
-I believe engineering is not just about writing code that works. It is about understanding system behaviour, investigating failures, and building software that is easier to test, maintain, and improve.
+```text
+Automotive-Embedded-Projects/
+├── README.md
+├── LICENSE
+├── docs/                       # shared notes and design references
+├── 01-ecu-simulator/
+│   ├── README.md               # overview, build and test instructions
+│   ├── src/
+│   ├── include/
+│   ├── tests/
+│   ├── docs/                   # requirements, diagrams, test results
+│   └── CMakeLists.txt
+├── 02-communication-simulator/
+├── 03-diagnostic-engine/
+├── 04-sensor-monitor/
+└── 05-fault-detection/
+```
 
 ---
 
-## 🧑‍🚀 05 // THE ENGINEER BEHIND THE ALIEN
+## 🗺️ Roadmap
+
+| Phase | Objective | Status |
+|:-----:|-----------|:------:|
+| 1 | Strengthen Embedded C and C++ fundamentals | ![Ongoing](https://img.shields.io/badge/-Ongoing-0A9396?style=flat-square) |
+| 2 | Develop the automotive ECU simulator | ![Planned](https://img.shields.io/badge/-Planned-F5A623?style=flat-square) |
+| 3 | Add CAN-based communication between virtual ECUs | ![Planned](https://img.shields.io/badge/-Planned-F5A623?style=flat-square) |
+| 4 | Implement diagnostics and fault handling | ![Planned](https://img.shields.io/badge/-Planned-F5A623?style=flat-square) |
+| 5 | Build automated testing workflows (unit tests, CI) | ![Planned](https://img.shields.io/badge/-Planned-F5A623?style=flat-square) |
+| 6 | Study AUTOSAR concepts and software architecture | ![Planned](https://img.shields.io/badge/-Planned-F5A623?style=flat-square) |
+| 7 | Extend to advanced projects, including microcontroller targets | ![Planned](https://img.shields.io/badge/-Planned-F5A623?style=flat-square) |
+
+---
+
+## 🚀 Getting Started
+
+Project code is added incrementally. The steps below describe the intended workflow and will be confirmed per project as each one is published.
+
+**Prerequisites:** Git · GCC or compatible C/C++ compiler · CMake 3.15+ · Python 3.9+ (where visualization scripts are used)
+
+```bash
+# Clone
+git clone https://github.com/Vishnuprakash-JaganMohan/Automotive-Embedded-Projects.git
+cd Automotive-Embedded-Projects
+
+# Build and test a project (template; see each project's README)
+cd 01-ecu-simulator
+cmake -S . -B build
+cmake --build build
+ctest --test-dir build
+```
+
+---
+
+## 🤝 Contributing and Feedback
+
+This is a personal learning repository, but technical feedback is welcome. Please open an issue with the project and file concerned, what you observed, and what you would suggest instead. For pull requests, please open an issue first to discuss the change.
+
+---
+
+## 📄 License
+
+Released under the MIT License. See [LICENSE](LICENSE) for details.
+
+---
+
+## 📬 Contact
 
 <div align="center">
 
-### VISHNUPRAKASH JAGAN MOHAN
+**Vishnuprakash Jagan Mohan** · Chemnitz, Germany
 
-**M.Sc. Embedded Systems | TU Chemnitz, Germany**
-
-`EMBEDDED HARDWARE` • `FIRMWARE` • `AUTOMOTIVE SOFTWARE`
-
-</div>
-
-I bring over four years of industrial R&D experience in embedded hardware, firmware, PCB design, and microcontroller-based control systems.
-
-My professional experience has given me a foundation in hardware-software integration and the development of electronic control solutions.
-
-I'm now building on that foundation to strengthen my expertise in automotive embedded software through independent projects and continuous learning.
-
-### 🧬 Engineering interests
-
-- 🚘 Automotive Embedded Software
-- ⚡ Embedded C / C++
-- 🧠 Electronic Control Units
-- 📡 Automotive Communication
-- 🔌 Hardware-Software Co-Design
-- 🛡️ Software Testing and Verification
-- 🌌 Intelligent Vehicle Technologies
-
----
-
-## 👾 06 // THE ALIEN ENGINEERING CODE
-
-<div align="center">
-
-| ALIEN PRINCIPLE | ENGINEERING MEANING |
-|:---|:---|
-| 👽 Stay Curious | Keep exploring new technologies |
-| ⚡ Build Something | Turn theory into practical experiments |
-| 🔬 Test Everything | Investigate behaviour and edge cases |
-| 🛡️ Expect Failure | Learn to identify and handle faults |
-| 🚀 Keep Evolving | Improve with every project |
-| 🌌 Think Beyond | Explore ideas beyond familiar boundaries |
-
-</div>
-
-> **"I don't just want to understand the technology around me. I want to experiment, build, and discover what I can create with it."**
-
----
-
-## 📡 07 // ESTABLISH CONTACT
-
-<div align="center">
-
-### TRANSMISSION CHANNEL OPEN 👽
-
-Interested in embedded systems, automotive technology, or intelligent vehicles?
-
-Let's exchange ideas, learn from each other, and explore the engineering universe.
-
-<br/>
-
-<a href="https://github.com/Vishnuprakash-JaganMohan">
-<img src="https://img.shields.io/badge/ENTER_THE_ALIEN_GARAGE-00FFD1?style=for-the-badge&logo=github&logoColor=00FFD1&labelColor=080B18" alt="Explore my GitHub"/>
-</a>
-
-<br/><br/>
-
-### 🚘 BUILD THE MACHINE.
-### 👽 QUESTION THE UNKNOWN.
-### ⚡ ENGINEER THE FUTURE.
-
-<br/>
-
-<img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=600&size=16&duration=2500&pause=1000&color=00FFD1&center=true&vCenter=true&width=650&lines=ALIEN+AUTOMOTIVE+LAB;SYSTEMS+INITIALIZED...;NEXT+EXPERIMENT+LOADING...;THE+MISSION+CONTINUES..." alt="Alien lab status"/>
-
-<br/>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&height=150&color=0:00FFD1,50:003B49,100:050816&section=footer" width="100%"/>
-
-<sub>BUILT ON EARTH 🌍 • INSPIRED BY THE UNIVERSE 🌌 • POWERED BY ENGINEERING ⚡</sub>
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Vishnuprakash-JaganMohan)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/YOUR-PROFILE)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:YOUR-EMAIL)
 
 </div>
