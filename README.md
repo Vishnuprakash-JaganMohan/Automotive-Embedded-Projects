@@ -46,7 +46,7 @@ Over four years of industrial R&D experience in embedded hardware, firmware and 
 
 | # | Project | Focus | Topics | Status |
 |:-:|---------|-------|--------|:------:|
-| 1 | 🔵 [ECU Simulator](#-1-automotive-ecu-simulator) | Control logic | Sensor inputs, state machines, actuator outputs | ![Planned](https://img.shields.io/badge/-Planned-F5A623?style=flat-square) |
+| 1 | 🔵 [ECU Simulator](#-1-automotive-ecu-simulator) | Control logic | Sensor inputs, state machines, actuator outputs | ![completed](https://img.shields.io/badge/-Completed-2D9C5A?style=flat-square) |
 | 2 | 🟢 [Communication Simulator](#-2-automotive-communication-simulator) | Networking | CAN frames, message handling between virtual ECUs | ![Planned](https://img.shields.io/badge/-Planned-F5A623?style=flat-square) |
 | 3 | 🟣 [Diagnostic Engine](#-3-ecu-diagnostic-engine) | Diagnostics | Fault identification, trouble codes, event logging | ![Planned](https://img.shields.io/badge/-Planned-F5A623?style=flat-square) |
 | 4 | 🟠 [Sensor Monitor](#-4-vehicle-sensor-monitor) | Signal handling | Thresholds, plausibility checks, visualization | ![Planned](https://img.shields.io/badge/-Planned-F5A623?style=flat-square) |
@@ -180,7 +180,7 @@ Automotive-Embedded-Projects/
 | Phase | Objective | Status |
 |:-----:|-----------|:------:|
 | 1 | Strengthen Embedded C and C++ fundamentals | ![Ongoing](https://img.shields.io/badge/-Ongoing-0A9396?style=flat-square) |
-| 2 | Develop the automotive ECU simulator | ![Planned](https://img.shields.io/badge/-Planned-F5A623?style=flat-square) |
+| 2 | Develop the automotive ECU simulator | ![Completed](https://img.shields.io/badge/-Completed-2D9C5A?style=flat-square) |
 | 3 | Add CAN-based communication between virtual ECUs | ![Planned](https://img.shields.io/badge/-Planned-F5A623?style=flat-square) |
 | 4 | Implement diagnostics and fault handling | ![Planned](https://img.shields.io/badge/-Planned-F5A623?style=flat-square) |
 | 5 | Build automated testing workflows (unit tests, CI) | ![Planned](https://img.shields.io/badge/-Planned-F5A623?style=flat-square) |
