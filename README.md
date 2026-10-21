@@ -181,7 +181,7 @@ Automotive-Embedded-Projects/
 |:-----:|-----------|:------:|
 | 1 | Strengthen Embedded C and C++ fundamentals | ![Ongoing](https://img.shields.io/badge/-Ongoing-0A9396?style=flat-square) |
 | 2 | Develop the automotive ECU simulator | ![Completed](https://img.shields.io/badge/-Completed-2D9C5A?style=flat-square) |
-| 3 | Add CAN-based communication between virtual ECUs | ![Planned](https://img.shields.io/badge/-Planned-F5A623?style=flat-square) |
+| 3 | Add CAN-based communication between virtual ECUs | ![Planned](https://img.shields.io/badge/-Completed-2D9C5A?style=flat-square) |
 | 4 | Implement diagnostics and fault handling | ![Planned](https://img.shields.io/badge/-Planned-F5A623?style=flat-square) |
 | 5 | Build automated testing workflows (unit tests, CI) | ![Planned](https://img.shields.io/badge/-Planned-F5A623?style=flat-square) |
 | 6 | Study AUTOSAR concepts and software architecture | ![Planned](https://img.shields.io/badge/-Planned-F5A623?style=flat-square) |
