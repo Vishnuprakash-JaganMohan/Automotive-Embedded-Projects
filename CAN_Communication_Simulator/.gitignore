@@ -1,1 +1,13 @@
+# Compiled executables
+*.exe
 
+# Object files
+*.o
+*.obj
+
+# Debug files
+*.pdb
+*.ilk
+
+# Temporary files
+*.tmp
